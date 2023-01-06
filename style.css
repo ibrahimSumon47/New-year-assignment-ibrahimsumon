@@ -18,8 +18,9 @@
     width: 480px;
 }
 
-.title{
+.title {
     font-size: 65px;
+    margin-bottom: 24px;
 }
 
 .button {
@@ -31,24 +32,55 @@
     background-color: whitesmoke;
     color: #005FAC;
     margin-left: auto;
+    margin-top: 24px;
 }
 
-.section {
-    background-image: url(images/person.png);
-    background-repeat: no-repeat;
-    width: 569px;
-    height: 723px;
-    margin-right: auto;
+.about {
+    margin: 130px auto;
     display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 725px;
 }
 
-.title2{
+.about-containt {
+    text-align: left;
+    width: 416px;
+    height: 400px;
+    margin-top: 240px;
+    text-align: left;
+
+}
+
+.about-title {
+    margin-bottom: 24px;
+
+}
+
+.about-discripson {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.my-plans {
+    text-align: center;
+    margin-top: 140px;
+    font-weight: 700;
     font-size: 40px;
-    margin-left: auto;
-    margin-right: 0;
 }
 
-.list{
-    margin-left: auto;
-    margin-right: 0;
+.skill-container {
+    display: flex;
+    padding-left: 350px;
+}
+
+.skill {
+    text-align: left;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer{
+    background-color: black;
+    color: whitesmoke;
 }
