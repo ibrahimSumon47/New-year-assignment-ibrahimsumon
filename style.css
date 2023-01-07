@@ -15,14 +15,19 @@
 
 .banner {
     margin-left: auto;
-    margin-right: 0;
+    margin-right: au;
     padding: 216px 230px 364px 845px;
     width: 480px;
+}
+
+.banner p {
+    margin-right: 60px;
 }
 
 .title {
     font-size: 65px;
     margin-bottom: 24px;
+    margin-right: 60px;
 }
 
 .button {
@@ -83,7 +88,7 @@
 .skill {
     text-align: left;
     padding: 30px;
-    margin: 30px;
+    margin: 55px;
 }
 
 /* Contact part */
@@ -151,4 +156,5 @@
     border: 1px solid #ffffff;
     margin-top: 30px;
     margin-bottom: 18px;
+    color: whitesmoke;
 }
