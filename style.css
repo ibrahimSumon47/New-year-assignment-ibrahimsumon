@@ -22,13 +22,19 @@
 
 .banner p {
     margin-right: 60px;
+    color: #FFFFFF;
 }
 
 .title {
     font-size: 65px;
     margin-bottom: 24px;
     margin-right: 60px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    ;
 }
+
 
 .button {
     border: 0;
@@ -50,6 +56,7 @@
     justify-content: space-between;
     width: 1060px;
     height: 725px;
+    color: #444343;
 }
 
 .about-containt {
@@ -58,22 +65,29 @@
     height: 400px;
     margin-top: 240px;
     text-align: left;
-
 }
 
 .about-title {
     margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
 
 }
 
 .about-discripson {
     text-align: left;
     margin-bottom: 24px;
+    font-weight: 400;
+}
+
+li{
+    margin-bottom: 8px;
 }
 
 /* My plans part */
 
-.my-plans {
+.plans {
     text-align: center;
     margin-top: 140px;
     font-weight: 700;
@@ -99,7 +113,7 @@
     background: #151414;
 }
 
-.contact-container {
+.footer-cointainer {
     display: flex;
     justify-content: space-between;
     width: 1140px;
@@ -109,13 +123,13 @@
     padding-top: 130px;
 }
 
-.contact-title {
+.footer-title {
     font-weight: 700;
     font-size: 45px;
     color: #f8f8f8;
 }
 
-.contact-description {
+.footer-description {
     width: 485px;
     font-weight: 400;
     font-size: 16px;
@@ -125,29 +139,29 @@
     line-height: 26px;
 }
 
-.contact-social p {
+.footer-social p {
     color: #ffffff;
     margin-bottom: 15px;
 }
 
-.contact-social img {
+.footer-social img {
     margin-right: 15px;
     text-align: left;
     margin-top: 30px;
 }
 
-.contact-mail {
+.footer-mail {
     width: 325px;
 }
 
-.contact-mail-title {
+.footer-mail-title {
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
     color: #ffffff;
 }
 
-.contact-mail input {
+.footer-mail input {
     width: 325px;
     height: 64px;
     border-radius: 8px;
