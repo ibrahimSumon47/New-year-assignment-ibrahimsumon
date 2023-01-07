@@ -80,7 +80,26 @@
     margin: 30px;
 }
 
-footer{
-    background-color: black;
+.contact {
+    width: 100%;
+    height: 575px;
+    background: #151414;
     color: whitesmoke;
-}
+    display: flex;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+  }
+  
+  .contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #f8f8f8;
+  }
